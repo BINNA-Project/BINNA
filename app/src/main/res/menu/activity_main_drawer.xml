@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile_picture"
+            android:title="@string/Profile_icon" />
+        <item
+            android:id="@+id/nav_Booked_places"
+            android:icon="@drawable/ic_baseline_bookmark_24"
+            android:title="@string/booked_places_nav_slider" />
+        <item
+            android:id="@+id/nav_Uploaded_images"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/uploaded_images" />
+        <item
+            android:id="@+id/nav_vouchers"
+            android:icon="@drawable/ic_baseline_confirmation_number_24"
+            android:title="@string/vouchers" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/notifications" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/about_nav_slider" />
+
+
+        <item
+            android:id="@+id/nav_gethelp"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/get_help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/exit_to_app_icon"
+            android:title="@string/Signout_icon" />
+
+    </group>
+</menu>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <TextView
+                    android:id="@+id/interst_btn"
+                    android:layout_width="329dp"
+                    android:layout_height="51dp"
+                    android:text="@string/select_your_interest"
+                    android:textColor="#FF000000"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="15dp"
+                    tools:layout_editor_absoluteY="6dp" />
+
+                <TextView
+                    android:id="@+id/Prefrences_btn"
+                    android:layout_width="89dp"
+                    android:layout_height="31dp"
+                    android:text="@string/prefrence"
+                    android:textColor="#FF000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="65dp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="87dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/indor_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/indoor_place"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/outdoor_btn"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/outdoor_btn"
+                            android:layout_width="114dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/outdoor_place"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.487"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/both_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/both"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/outdoor_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <TextView
+                    android:id="@+id/going_out_with"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/going_out_with"
+                    android:textColor="#FF000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="137dp"
+                    tools:layout_editor_absoluteY="163dp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/friends_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/friends"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@+id/family_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/family_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/family"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/alone_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/alone"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toStartOf="@+id/family_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/couple_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/couple"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/others_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/alone_btn"
+                            app:layout_constraintVertical_bias="0.407"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/others_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/others"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/family_btn"
+                            app:layout_constraintVertical_bias="0.407"
+                            tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/statues"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="170dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/single_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/Single"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/married_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/engaged_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/Engaged"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/married_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/married_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/married"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:text="@string/places_you_prefer"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="128dp"
+                    tools:layout_editor_absoluteY="448dp" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Parks_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/parks"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/Hotels_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/Amusment_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Historical_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/historical_places"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Restaurant_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/restaurant"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@+id/Historical_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Hotels_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/hotels"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/Historical_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Amusment_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/amusment_park"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toStartOf="@+id/Historical_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/cafe_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/cafe"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/Hotels_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/Restaurant_btn"
+                            tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/creativity_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/creativity"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/craft_btn"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/art_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/art"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toStartOf="@+id/craft_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/dancing_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/dancing"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintStart_toEndOf="@+id/craft_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/singing_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/singing"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/photography_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/art_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/photography_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/photography"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/craft_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/makingvideos_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/making_videos"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/photography_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/dancing_btn"
+                            app:layout_constraintVertical_bias="0.529"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/craft_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/craft"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/sports_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sports"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="-1dp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/basketball_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/basketball"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toTopOf="@+id/boating_btn"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/football_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/football"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toTopOf="@+id/bowling_btn"
+                            app:layout_constraintEnd_toStartOf="@+id/basketball_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/swimming_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/swimming"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toTopOf="@+id/Athletics_btn"
+                            app:layout_constraintStart_toEndOf="@+id/basketball_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/Athletics_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/athletics"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/boating_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/bowling_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/bowling"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/boating_btn"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/boating_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/boating"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/badminton_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/badminton"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/gymanistic_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/Athletics_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/gymanistic_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/gymanistic"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/boating_btn"
+                            tools:ignore="MissingConstraints" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/boxing_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/boxing"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/gymanistic_btn"
+                            app:layout_constraintTop_toBottomOf="@+id/bowling_btn"
+                            tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="305dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/submit_btn"
+                            android:layout_width="113dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="16dp"
+                            android:background="@drawable/btn_orange_ground"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.143"
+                            tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+</ScrollView>

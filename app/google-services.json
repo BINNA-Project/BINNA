@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "995074540855",
+    "project_id": "binna2",
+    "storage_bucket": "binna2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995074540855:android:1f74cea47bcbcae20c46b2",
+        "android_client_info": {
+          "package_name": "com.example.binnaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995074540855-q3e7198noevpbitbm7jrj07u4u13ukqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD07u-VWVxTXQfvDkW5SbLvWL5gmTVH7FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995074540855-q3e7198noevpbitbm7jrj07u4u13ukqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995074540855:android:4a00a5994dc3b5700c46b2",
+        "android_client_info": {
+          "package_name": "com.example.binnaapplicationn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995074540855-q3e7198noevpbitbm7jrj07u4u13ukqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD07u-VWVxTXQfvDkW5SbLvWL5gmTVH7FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995074540855-q3e7198noevpbitbm7jrj07u4u13ukqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

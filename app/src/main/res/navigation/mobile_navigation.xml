@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_Profile"
+        android:name="com.example.binnaapplicationn.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_booked_places" />
+
+    <fragment
+        android:id="@+id/nav_Booked_places"
+        android:name="com.example.binnaapplicationn.ui.bookedplaces.BookedFragment"
+        android:label="@string/menu_bookedplaces"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_Uploaded_images"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_uploadedimages"
+        tools:layout="@layout/fragment_uploaded_images" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_aboutus"
+        tools:layout="" />
+
+     <fragment
+         android:id="@+id/nav_signout"
+         android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+         android:label="menu_signout"
+         tools:layout="@layout/fragment_uploaded_images"
+         />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_uploaded_images"
+        />
+
+    <fragment
+        android:id="@+id/nav_gethelp"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_gethelp"
+        tools:layout="@layout/fragment_uploaded_images"
+        />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_uploaded_images"
+        />
+
+    <fragment
+        android:id="@+id/nav_vouchers"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_vouchers"
+        tools:layout="@layout/fragment_uploaded_images"
+        />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.binnaapplicationn.ui.uploadedimages.UploadedimagesFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_uploaded_images"
+        />
+
+
+
+
+
+
+</navigation>
