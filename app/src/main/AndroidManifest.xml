@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Binnaa"
         tools:targetApi="31">
         <activity
+            android:name=".review"
+            android:exported="false" />
+        <activity
             android:name=".search"
             android:exported="false" />
         <activity
