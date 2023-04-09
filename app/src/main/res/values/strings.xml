@@ -159,6 +159,9 @@
     <string name="search">search_view</string>
     <string name="search_subtit">search</string>
     <string name="search_subtitle">Search</string>
+    <string name="submit2">submit</string>
+    <string name="ratingbar">ratingbar</string>
+    <string name="rate">Rate</string>
 
 
 </resources>

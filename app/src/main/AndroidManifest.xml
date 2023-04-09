@@ -15,17 +15,12 @@
             android:name=".review"
             android:exported="false" />
         <activity
-            android:name=".search"
-            android:exported="false" />
-        <activity
-            android:name=".search_home"
-            android:exported="false" />
-        <activity
-            android:name="com.example.binnaapplicationn.Search_home"
+            android:name=".popup_review"
             android:exported="true" />
         <activity
-            android:name=".app_bar_home"
+            android:name=".search"
             android:exported="false" />
+
         <activity
             android:name="com.example.binnaapplicationn.intrests"
             android:exported="true" />
