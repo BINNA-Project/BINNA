@@ -1,13 +1,11 @@
-package com.example.binnaapplicationn
+package com.example.binnaa
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.binnaa.R
 import com.example.binnaa.databinding.ActivitySignupBinding
 import com.example.binnaa.userdataclass.UserIfromation
-import com.example.binnaapplicationn.intro
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 

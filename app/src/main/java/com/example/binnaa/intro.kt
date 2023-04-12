@@ -1,13 +1,11 @@
-package com.example.binnaapplicationn
+package com.example.binnaa
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
-import android.widget.Button
-import com.example.binnaa.R
-import com.example.binnaa.databinding.ActivityHomeBinding
 import com.example.binnaa.databinding.ActivityIntroBinding
+
 
 class intro : AppCompatActivity() {
     private lateinit var binding: ActivityIntroBinding
@@ -22,12 +20,12 @@ class intro : AppCompatActivity() {
 
         //click on both buttons
         binding.constraintLayoutLogin.setOnClickListener {
-            startActivity(Intent(this,login::class.java))
+            startActivity(Intent(this, login::class.java))
         }
 
 
            binding.constraintLayoutSignup.setOnClickListener {
-               startActivity(Intent(this,SignUP::class.java))
+               startActivity(Intent(this, SignUP::class.java))
            }
 
     }

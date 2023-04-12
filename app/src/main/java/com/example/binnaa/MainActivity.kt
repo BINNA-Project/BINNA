@@ -1,4 +1,4 @@
-package com.example.binnaapplicationn
+package com.example.binnaa
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

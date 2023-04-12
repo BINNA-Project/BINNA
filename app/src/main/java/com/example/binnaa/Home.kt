@@ -1,6 +1,5 @@
-package com.example.binnaapplicationn
+package com.example.binnaa
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -13,9 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.binnaa.R
 import com.example.binnaa.databinding.ActivityHomeBinding
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
 class Home : AppCompatActivity() {

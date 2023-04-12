@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recycler_list" type="id" />
+    <item name="recycler_list2" type="id" />
+    <item name="sub_recycler_list" type="id">sub_categories</item>
+</resources>

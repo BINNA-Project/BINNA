@@ -1,5 +1,6 @@
 package com.example.binnaapplicationn
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,6 +12,7 @@ class Sub_categories : AppCompatActivity() {
     private lateinit var recyclerview : RecyclerView
     private lateinit var subCategoriesAdapter: SubCategoriesAdapter
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub_categories)
