@@ -274,6 +274,18 @@
     <string name="places_you_prefer2">places you prefer</string>
     <string name="forgot_your_password">Forgot Your Password?</string>
     <string name="todo23">TODO</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="username">username</string>
+    <string name="address">address</string>
+    <string name="Address">Address</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="interests">Interests</string>
+    <string name="save_changes">save changes</string>
+    <string name="changes_saved" />
+    <string name="Edit_profile">Edit profile</string>
+    <string name="Save_changes">Save changes</string>
 
 
 </resources>

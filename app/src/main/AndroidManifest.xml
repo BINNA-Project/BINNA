@@ -12,25 +12,28 @@
         android:theme="@style/Theme.Binnaa"
         tools:targetApi="31">
         <activity
+            android:name=".edit_info"
+            android:exported="false" />
+        <activity
             android:name=".popup_filter"
             android:exported="false" />
         <activity
-            android:name="com.example.binnaa.profile"
+            android:name=".profile"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaa.Popup_review"
+            android:name=".Popup_review"
             android:exported="true" />
         <activity
             android:name=".search"
             android:exported="false" />
         <activity
-            android:name="com.example.binnaa.interests"
+            android:name=".interests"
             android:exported="false" />
         <activity
-            android:name="com.example.binnaa.Home"
+            android:name=".Home"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaa.intro"
+            android:name=".intro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,13 +42,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.binnaa.login"
+            android:name=".login"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaa.SignUP"
+            android:name=".SignUP"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaa.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
     </application>
 

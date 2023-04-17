@@ -147,7 +147,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@drawable/btn_orange_ground"
-            android:text="@string/personal_information"
+            android:text="@string/Edit_profile"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="17sp"
