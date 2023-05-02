@@ -58,6 +58,7 @@ class interests : AppCompatActivity() {
             findViewById<Button>(R.id.gymanistic_btn),
             findViewById<Button>(R.id.badminton_btn),
         )
+        val submitButton = findViewById<Button>(R.id.submit_btn)
 
         var selectedpreference: String? = null
         var selectedGroup: String? = null
@@ -65,6 +66,7 @@ class interests : AppCompatActivity() {
         var selectedplaces: String? = null
         var selectedcreativity: String? = null
         var selectedsports: String? = null
+        var selectedsubmit: string? = null
 
         preferenceBtns.forEach { button ->
             button.setOnClickListener {
