@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.binnaa.login">
+    tools:context="com.example.binnaa.Login">
 
 
     <LinearLayout
@@ -19,6 +19,7 @@
             tools:ignore="UselessParent">
 
             <ImageView
+                android:id="@+id/backarrow"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/white_back_arrow"
@@ -87,9 +88,9 @@
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_height="50dp"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
+            android:minHeight="48dp"
             android:singleLine="true"
             android:text="@string/password_edit_view" />
 

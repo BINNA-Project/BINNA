@@ -1,5 +1,4 @@
 package com.example.binnaa
-
 import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class login : AppCompatActivity() {
+class Login : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding
     private lateinit var sEmail : String
     private lateinit var  sPassword :String
@@ -34,7 +33,7 @@ class login : AppCompatActivity() {
         }
 
 
-        binding.backArrow.setOnClickListener {
+        binding.backarrow.setOnClickListener {
 
             startActivity(Intent(this , intro::class.java ))
         }
