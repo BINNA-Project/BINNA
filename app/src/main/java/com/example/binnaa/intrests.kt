@@ -3,12 +3,11 @@ package com.example.binnaa
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import com.example.binnaa.R
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
-class interests : AppCompatActivity() {
+class intrests : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,7 +65,7 @@ class interests : AppCompatActivity() {
         var selectedplaces: String? = null
         var selectedcreativity: String? = null
         var selectedsports: String? = null
-        var selectedsubmit: string? = null
+        var selectedsubmit: String? = null
 
         preferenceBtns.forEach { button ->
             button.setOnClickListener {
@@ -99,7 +98,9 @@ class interests : AppCompatActivity() {
                 selectedsports = button.text.toString()
             }
         }
-// backend of submit button
+        submitButton.setOnClickListener {
+            // Perform action when button is clicked
+        }
 
     }
 }

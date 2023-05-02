@@ -18,13 +18,13 @@
             android:name=".search_home"
             android:exported="false" />
         <activity
-            android:name="com.example.binnaapplicationn.Search_home"
+            android:name="com.example.binnaa.Search_home"
             android:exported="true" />
         <activity
             android:name=".app_bar_home"
             android:exported="false" />
         <activity
-            android:name="com.example.binnaapplicationn.intrests"
+            android:name="com.example.binnaa.intrests"
             android:exported="true" />
         <activity
             android:name="com.example.binnaapplicationn.Home"

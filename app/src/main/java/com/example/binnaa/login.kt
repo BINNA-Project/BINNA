@@ -18,7 +18,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import java.util.regex.Pattern
 
-class login : AppCompatActivity() {
+class Login : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding
     private lateinit var sEmail : String
     private lateinit var  sPassword :String
