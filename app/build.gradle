@@ -13,6 +13,10 @@ android {
 
     buildFeatures {
         viewBinding = true
+
+        dataBinding {
+            enabled = true //dah l eror el login
+        }
     }
     defaultConfig {
         applicationId "com.example.binnaa"
@@ -68,4 +72,5 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.2.3')
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
 }

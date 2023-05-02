@@ -64,7 +64,7 @@
         <EditText
             android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:singleLine="true"
@@ -87,12 +87,10 @@
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_email"
+            android:layout_height="50dp"
+            android:hint="@string/hint_password"
             android:inputType="textPassword"
-            android:minHeight="48dp"
             android:singleLine="true"
-
-
             android:text="@string/password_edit_view" />
 
         <TextView
