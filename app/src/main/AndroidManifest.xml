@@ -7,17 +7,30 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="BINNA"
         android:supportsRtl="true"
         android:theme="@style/Theme.Binnaa"
         tools:targetApi="31">
         <activity
+            android:name=".edit_info"
+            android:exported="false" />
+        <activity
+            android:name=".popup_filter"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".Popup_review"
+            android:exported="true" />
+        <activity
             android:name=".search"
             android:exported="false" />
         <activity
-            android:name=".search_home"
+            android:name=".interests"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name="com.example.binnaa.Search_home"
             android:exported="true" />
         <activity
@@ -31,6 +44,12 @@
             android:exported="true" />
         <activity
             android:name="com.example.binnaapplicationn.intro"
+=======
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".intro"
+>>>>>>> 5af6f9f23fa2f792947c9e7b69ad84fc4b4a7344
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,13 +58,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.binnaapplicationn.login"
+            android:name=".Login"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaapplicationn.SignUP"
+            android:name=".SignUP"
             android:exported="true" />
         <activity
-            android:name="com.example.binnaapplicationn.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
     </application>
 

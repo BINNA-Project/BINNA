@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.binnaapplicationn.login">
+    tools:context="com.example.binnaa.Login">
 
 
     <LinearLayout
@@ -16,15 +15,17 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bright_orange">
+            android:background="@color/bright_orange"
+            tools:ignore="UselessParent">
 
             <ImageView
-                android:contentDescription="@string/back_arrow"
-                android:id="@+id/back_arrow"
+                android:id="@+id/backarrow"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/white_back_arrow"
-                android:padding="14dp"/>
+                android:padding="14dp"
+                android:contentDescription="@string/todo23"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -55,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/email_text_view"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
 
 
@@ -68,17 +69,16 @@
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:singleLine="true"
-
-
-
-            />
+            android:minHeight="48dp"
+            android:text="@string/email_edit_view"
+            android:autofillHints="" />
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/password_text_view"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
 
 
@@ -87,15 +87,12 @@
         <EditText
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
+            android:minHeight="48dp"
             android:singleLine="true"
-
-
-
-
-            />
+            android:text="@string/password_edit_view" />
 
         <TextView
             android:layout_width="match_parent"
@@ -103,7 +100,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="8dp"
-            android:text="Forgot Your Password?"
+            android:text="@string/forgot_your_password"
             android:textAlignment="textEnd" />
 
 
@@ -119,8 +116,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="38dp"
-        android:layout_weight="2"
-
         android:background="@drawable/button_background_orange"
         android:minHeight="48dp"
         android:text="@string/login_text_nav"
@@ -128,6 +123,13 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+
+
+
+
+
+
 
 
 </RelativeLayout>
