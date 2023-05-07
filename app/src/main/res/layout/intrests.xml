@@ -42,7 +42,7 @@
                     android:layout_height="87dp">
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:id="@+id/indor_btn"
+                            android:id="@+id/indoor_btn"
                             android:layout_width="113dp"
                             android:layout_height="48dp"
                             android:background="@drawable/btn_orange_ground"
